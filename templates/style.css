@@ -1,0 +1,37 @@
+head {
+    display: inline;
+    font-family: source sans pro, sans-serif;
+}
+
+body {
+    background-image: white;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+  
+  main {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* font-family: source sans pro, sans-serif; */
+    min-height: 100vh;
+  }
+  
+  /* header {
+      display: flex;
+      flex-direction: row;
+      font-family: source sans pro, sans-serif;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      margin: 0 5% 0 5%;
+    } */
+  h2 {
+    color: #b191d4;
+    font-family: source sans pro, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 5%;
+  }
+
