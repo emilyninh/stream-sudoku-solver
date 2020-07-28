@@ -1,3 +1,12 @@
+html, body, div, img {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 head {
     display: inline;
     font-family: source sans pro, sans-serif;
@@ -5,7 +14,7 @@ head {
 
 body {
     background-image: white;
-    margin: 0 auto;
+    line-height: 1;
     min-height: 100vh;
   }
   
@@ -35,3 +44,11 @@ body {
     margin-bottom: 5%;
   }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    padding: 5px;
+}
