@@ -52,3 +52,10 @@ body {
     align-content: center;
     padding: 5px;
 }
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
